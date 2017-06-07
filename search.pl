@@ -25,6 +25,6 @@ close $agents;
 
 my $b = "";
 foreach my $i (@a){
-    $b .= " and requester_user_agent <> $i ";
+    $b .= " and user_a__ <> $i ";
     }
 print $b;
